@@ -1,0 +1,22 @@
+{
+  "name": "ebay_account_creator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "watch": "tsc-watch --onSuccess \"node build/index.js\"",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/puppeteer": "^5.4.2",
+    "puppeteer-core": "^5.5.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "tsc-watch": "^4.2.9"
+  }
+}
