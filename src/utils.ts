@@ -3,3 +3,7 @@ export async function findAsync<T>(array: T[], predicate: (value: T, index?: num
     const index = candidates.findIndex(candidate => candidate);
     return array[index];
 }
+
+export function generateRandomPassword(numberOfCharacters = 12) {
+    return Math.random().toString(36).slice(-numberOfCharacters);
+}
