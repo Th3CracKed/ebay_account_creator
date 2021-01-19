@@ -12,11 +12,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node-fetch": "^2.5.8",
     "@types/puppeteer": "^5.4.2",
     "puppeteer-core": "^5.5.0",
     "typescript": "^3.7.5"
   },
   "dependencies": {
+    "node-fetch": "^2.6.1",
     "tsc-watch": "^4.2.9"
   }
 }
