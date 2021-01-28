@@ -10,6 +10,7 @@
       "noImplicitAny": true,
       "target": "es2017",
       "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
       "outDir": "build",
       "rootDir": "src",
       "sourceMap": true,
